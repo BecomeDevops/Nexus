@@ -2,6 +2,8 @@
 Nexus Download steps starts from here
 -----------------------------------------
 
+apt install openjdk-8-jre-headless
+
 
 cd /opt
 
