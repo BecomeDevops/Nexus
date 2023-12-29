@@ -15,6 +15,11 @@ mv /opt/nexus-3.63.0-01 /opt/nexus
 
 sudo adduser nexus
 
+add no password for nexus by opening below visudo file
+---------------------------------------------------------
+
+sudo visudo
+
 nexus ALL=(ALL) NOPASSWD: ALL
 
 sudo chown -R nexus:nexus /opt/nexus
